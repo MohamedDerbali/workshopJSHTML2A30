@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="loadWebPage()">
+    <button id="btn">Hello</button>
+    <br/><br/>
+    <form>
+        Nom: <input type="text" class="nom" onchange="validate(this)" name="nom"
+            placeholder="write your lastname here..." />
+            <br/>
+        Prenom: <input type="text" class="prenom" onchange="validate(this)" name="prenom"
+            placeholder="write your firstname here..." />
+            <br/>
+        Age: <input type="text" class="age" onchange="validate(this)" name="age"
+            placeholder="write your age here..." />
+    </form>
+    <div id="checkData"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
